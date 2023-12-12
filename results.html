@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Your Results</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="topnav">
+      <a class="active" href="blockbuster.html">HOME</a>
+      <a href="myresults.html">MY RESULTS</a>
+    </div>
+    
+    <h1 class="topdiv" style="color: yellow; text-align: center">Below is your recommended movies, Enjoy!</h1>
+
+    <div class="split left">
+      <div id="movieinfo" style="text-align: center;">
+        <img id="movieposter" src="" width="350" height="350">
+      </div>
+
+      <div id="viewres" style="text-align: center">
+        <button id="save-movie" style="background-color: #333; color: yellow; font-size: large; border-radius: 12px">
+          ADD TO MY RESULTS
+        </button>
+      </div>  
+    </div>
+
+    <div class="split right">
+      <!--<div id="gameinfo" class="centered">-->
+      <div id="gameinfo" style="text-align: center;">
+        <img id="gameposter" src="" width="350" height="350">
+      </div>
+
+      <div id="viewres" style="text-align: center">
+        <button id="save-game" style="background-color: #333; color: yellow; font-size: large; border-radius: 12px">
+          ADD TO MY RESULTS
+        </button>
+      </div>
+    </div>
+
+    <script src="api-key.js"></script>
+    <script src="results.js"></script>
+  </body>
+</html>

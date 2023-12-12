@@ -1,0 +1,107 @@
+body {
+    background-image: url('../img/blockbuster_logo2.png');
+}
+
+#findmyfav:hover {
+    cursor: pointer;
+}
+
+#save-movie:hover {
+  cursor: pointer;
+}
+
+#save-game:hover {
+  cursor: pointer;
+}
+    
+.hidden {
+    display: none;
+}
+
+.questions {
+    color: yellow;
+    font-size: 30px;
+    text-align: center;
+}
+
+.answeroptions {
+    font-size: 20px;
+    text-align: center;
+    color: yellow;
+    background-color: #333;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+/* Split the screen in half */
+.split {
+    background-image: url('../img/blockbuster_logo2.png');
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 50;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    color: yellow;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    color: yellow;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 3px solid black;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  .poster img {
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
+  }
+  
