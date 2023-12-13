@@ -327,7 +327,7 @@ findMyFavBtnEl.addEventListener('click', () => { // show question 1
     }
 });
 
-// Add event listener for the question1 button
+// Add event listener for the view results button
 quesResBtnEl.addEventListener('click', () => {
     // All movie answers collected, switch focus to results.html to show results
     window.location.href = "results.html";
